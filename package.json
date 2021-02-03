@@ -1,0 +1,31 @@
+{
+  "name": "nostickers",
+  "version": "1.0.0",
+  "description": "Stickers are haram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbr-0001/nostickers.git"
+  },
+  "keywords": [
+    "Discord",
+    "Stickers",
+    "Haram"
+  ],
+  "author": "MBR#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbr-0001/nostickers/issues"
+  },
+  "homepage": "https://github.com/mbr-0001/nostickers#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
