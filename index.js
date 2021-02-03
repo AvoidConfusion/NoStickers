@@ -16,6 +16,8 @@ bot.on("raw", packet => {
 
 bot.on("message", message => {
     if (message.channel.stickers?.includes?.(message.id)) {
-        message.delete({reason: "stickers are haram"}).then(() => console.log("Deleted a message containing a sticker, mashallah!"));
+        message.delete({reason: "stickers are haram"}).then(() => {
+            console.log("Deleted a message sent by " + message.author.tag + " containing a sticker in #" + message.channel.name + ", mashallah!");
+        });
     }
 });
