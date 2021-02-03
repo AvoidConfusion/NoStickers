@@ -1,7 +1,9 @@
 require("dotenv").config();
 const Discord = require("discord.js");
 
-const bot = new Discord.Client();
+const intents = ["GUILDS", "GUILD_MESSAGES"];
+
+const bot = new Discord.Client({ws: {intents: intents}, intents: intents}); //v8 moves intents from ws
 bot.login(process.env.TOKEN);
 
 bot.on("ready", () => console.log(bot.user.tag + " ready!"));
