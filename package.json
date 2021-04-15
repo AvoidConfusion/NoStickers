@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/mbr-0001/nostickers#readme",
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord.js": "github:discordjs/discord.js",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
