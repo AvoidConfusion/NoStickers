@@ -23,9 +23,9 @@
   "homepage": "https://github.com/mbr-0001/nostickers#readme",
   "dependencies": {
     "discord.js": "github:discordjs/discord.js",
-    "dotenv": "^8.2.0"
+    "dotenv": "^9.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.19.0"
+    "eslint": "^7.26.0"
   }
 }
